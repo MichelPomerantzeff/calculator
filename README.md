@@ -1,7 +1,5 @@
 # calculator
 
-[Countdown](https://michelpomerantzeff.github.io/Countdown/)
-
 [Calculator](https://michelpomerantzeff.github.io/calculator/)
 
 
