@@ -1,4 +1,4 @@
-# calculator
+# Calculator
 
 [>>>Click here<<<](https://michelpomerantzeff.github.io/calculator/)
 
