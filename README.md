@@ -1,6 +1,7 @@
 # calculator
 
-[CLICK HERE](https://michelpomerantzeff.github.io/calculator/)
+[>>>Click here<<<](https://michelpomerantzeff.github.io/calculator/)
 
 
-![calculator](https://user-images.githubusercontent.com/96065240/166573142-1b53a59c-9427-48b7-8f9d-c55459ff8f06.png)
+
+![calculator](https://user-images.githubusercontent.com/96065240/171475236-99ca8508-a85c-4b4e-991e-a6209d4dc9ff.png)
