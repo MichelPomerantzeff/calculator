@@ -10,7 +10,7 @@ body {
 header {
     text-align: center;
     font-size: 4em;
-    text-shadow: 0 0 6px white;
+    color: white;
     padding: 30px;
 }
 
@@ -81,4 +81,5 @@ footer {
     font-style: italic;
     text-align: center;
     padding: 20px;
+    color: white;
 }
