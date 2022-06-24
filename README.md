@@ -1,6 +1,6 @@
 # Calculator
 
-[>>>Click here<<<](https://michelpomerantzeff.github.io/calculator/)
+[>>>View Live Demo<<<](https://michelpomerantzeff.github.io/calculator/)
 
 
 
