@@ -43,7 +43,7 @@ const addOperator = (e) => {
     checkLastDigit()
     n1 = display.innerText
     operator = e.target.innerText
-    display.innerText += e.target.innerText
+    // display.innerText += e.target.innerText
     newNumber = true
     hasDot = false
 }

@@ -1,40 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+    <link rel="shortcut icon" type="image/x-icon" href="calculator-icon.png" />
+
     <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.6.3.min.js"> </script>
 </head>
+
 <body>
     <header>Calculator</header>
     <div class="calculator">
-        <div id="display" class="display" >0</div>
-        <div class="buttons">
-            <button class="btn clear c" onclick="clearAll()" >C</button>
-            <button class="btn clear" onclick="backSpace()"><<</button>
-            <button class="btn operation">/</button>
-            <button class="btn num" >7</button>
-            <button class="btn num">8</button>
-            <button class="btn num">9</button>
-            <button class="btn operation">*</button>
-            <button class="btn num">4</button>
-            <button class="btn num">5</button>
-            <button class="btn num">6</button>
-            <button class="btn operation">-</button>
-            <button class="btn num">1</button>
-            <button class="btn num">2</button>
-            <button class="btn num">3</button>
-            <button class="btn operation">+</button>
-            <button class="btn num zero">0</button>
-            <button class="btn dot" onclick="addDot()">.</button>
-            <button class="btn res" onclick="calculate()">=</button>
-        </div>
+
+        <div id="display" class="display">0</div>
+        <button class="btn clear c double" onclick="clearAll()">C</button>
+        <button class="btn clear" onclick="backSpace()"><<</i></button>
+        <button class="btn operation">/</i></button>
+        <button class="btn num">7</button>
+        <button class="btn num">8</button>
+        <button class="btn num">9</button>
+        <button class="btn operation">*</button>
+        <button class="btn num">4</button>
+        <button class="btn num">5</button>
+        <button class="btn num">6</button>
+        <button class="btn operation">-</button>
+        <button class="btn num">1</button>
+        <button class="btn num">2</button>
+        <button class="btn num">3</button>
+        <button class="btn operation">+</button>
+        <button class="btn num zero double">0</button>
+        <button class="btn dot" onclick="addDot()">.</button>
+        <button class="btn res" onclick="calculate()">=</button>
+
     </div>
 
     <footer>&copy;Michel Pomerantzeff</footer>
     <script src="script.js"></script>
 </body>
+
 </html>

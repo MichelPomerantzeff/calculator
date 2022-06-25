@@ -1,72 +1,80 @@
+@font-face {
+    font-family: "RobotoMono" ;
+    src: url("./RobotoMono-Thin.ttf");
+}
+
 body {
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.158), rgba(0, 0, 0, 0.781));
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "RobotoMono" ;
+    background: linear-gradient(to right, rgb(83, 105, 118), rgb(41,46,73));
     display: flex;
     flex-direction: column;
-    align-content: center;
-    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
 }
 
 header {
-    text-align: center;
-    font-size: 4em;
     color: white;
-    padding: 30px;
+    font-size: 3rem;
 }
 
 .calculator {
-    padding: 20px;
-    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows:1.5fr 1fr 1fr 1fr 1fr 1fr ;
+    height: 500px;
     width: 320px;
 }
 
 .display {
-    background-color: rgba(0, 0, 0, 0.397);
+    background-color: #0004;
     color: white;
+    grid-column: span 4;
     display: flex;
-    flex-direction: row-reverse;
-    font-size: 2.5em;
-    padding: 10px 10px 5px 0;
-    width: 270px;
-    margin: 0;
-    height: 50px;
+    justify-content: flex-end;
+    align-items: center;
     overflow: hidden;
-    border-top-left-radius: 8px;
+    font-size: 3.5rem;
+    padding: 20px;
     border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
 }
 
-.buttons{
-    display: flex;
-    flex-wrap: wrap;
-}
 
 button{
     cursor: pointer;
-    font-size: 1.5em;
-    width: 70px;
-    height: 70px;
-    border: solid .1px rgba(0, 0, 0, 0.397);
+    font-size: 1.6rem;
+}
+
+button.double {
+    grid-column: span 2;
 }
 
 button.num, .dot {
     background-color: white;
+    border: solid 1px grey;
 }
 
 button.operation {
-    background-color: orange;
+    color: white;
+    background-color: #fa8231;
+    border: solid 1px grey;
 }
 
 button.res {
-    background-color: steelblue;
+    color: white;
+    background-color: #fa8231;
+    border: solid 1px grey;
     border-bottom-right-radius: 8px;
 }
 
 button.clear {
-    background-color: rgb(226, 51, 51);
+    color: white;
+    background-color: rgb(211, 70, 70);
 }
 
-.c, .zero {
-    width: 140px;
+.c, .zero, .clear {
+    border: solid 1px grey;
 }
 
 .zero {
@@ -74,7 +82,7 @@ button.clear {
 }
 
 button:hover{
-    opacity: .5;
+    opacity: .8;
 }
 
 footer {
